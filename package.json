@@ -1,0 +1,33 @@
+{
+  "name": "d3-hypergraph",
+  "version": "0.0.1",
+  "author": "Andrea Simeone",
+  "description": "{Implement the hypergraph linking into the D3 force layout}",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "hypergraph",
+    "force layout",
+    "force directed graph",
+    "graph"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "build/d3-hypergraph.js",
+  "jsnext:main": "index",
+  "homepage": "https://github.com/AndreaSimeone/d3-force-hypergraph",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreaSimeone/d3-hypergraph.git"
+  },
+  "scripts": {
+    "pretest": "rm -rf build && mkdir build && rollup -f umd -n d3 -o build/d3-hypergraph.js -- index.js",
+    "test": "tape 'test/**/*-test.js'",
+    "prepublish": "npm run test && uglifyjs build/d3-hypergraph.js -c -m -o build/d3-hypergraph.min.js",
+    "postpublish": "zip -j build/d3-hypergraph.zip -- LICENSE README.md build/d3-hypergraph.js build/d3-hypergraph.min.js"
+  },
+  "devDependencies": {
+    "rollup": "0.27",
+    "tape": "4",
+    "uglify-js": "2"
+  }
+}
