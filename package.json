@@ -1,6 +1,6 @@
 {
   "name": "d3-hypergraph",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Andrea Simeone",
   "description": "{Implement the hypergraph linking into the D3 force layout}",
   "keywords": [
