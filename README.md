@@ -31,7 +31,7 @@ For example a proper json rappresentation of nodes connected by hypergraph is:
   ]
 }
 ```
-The returned data are returned through an object:
+The data are returned through an object:
  ```js 
  	var obj = d3.hypergraph(links,nodes);
 	links = obj.links		//return all the links of our graph
