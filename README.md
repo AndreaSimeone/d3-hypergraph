@@ -1,6 +1,6 @@
 # d3-hypergraph
 
-**hypergraph** is a simple implementation of [Hypergraph](https://en.wikipedia.org/wiki/Hypergraph) linking using the awesome Mike Bostock's [force layout](https://github.com/d3/d3-force).
+**d3-hypergraph** is a simple implementation of [Hypergraph](https://en.wikipedia.org/wiki/Hypergraph) linking using the awesome Mike Bostock's [force layout](https://github.com/d3/d3-force).
 Take a look to a [simple example](https://bl.ocks.org/AndreaSimeone/3dce7e69ef27c871b9ce851379f6f7d8) or the reinterpretation of the classic ["Lés Miserables" example](https://bl.ocks.org/AndreaSimeone/1e9ed38b46b95b7848c7140a6e45e6c3).
 
 ## Installing
